@@ -8,7 +8,7 @@ public class AsssertionsExample {
     @Test
     void testTitle(){
         String expectedTitle = "Opencart";
-        String actualTitle = "Openshop";
-        Assert.assertEquals(expectedTitle,actualTitle);
+        String actualTitle = "Opencartµp";
+        Assert.assertEquals(expectedTitle,actualTitle,"Expected & Actual title Do Not Match");
     }
 }
